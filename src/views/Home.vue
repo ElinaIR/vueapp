@@ -4,11 +4,12 @@
     <div class="container">
         <div class="">
             <strong><h1 class="text-center gradient_text text-uppercase"> Онлайн тренажер </h1></strong>
-            <h4 class="text-center mt-5 text-uppercase text-danger"> Формат экзамена </h4>
+            <br>
+            <!-- <h4 class="text-center mt-5 text-uppercase text-danger"> Формат экзамена </h4> -->
             <div class="w-50 mx-auto my-5 d-flex justify-content-around">
-                <router-link :to = "{ name: 'exam', params: { exam: 'vpr' } }" exact class="btn format_btn"> ВПР </router-link>
-                <router-link :to = "{ name: 'exam', params: { exam: 'oge' } }" exact class="btn format_btn"> ОГЭ </router-link>
-                <router-link :to = "{ name: 'exam', params: { exam: 'ege' } }" exact class="btn format_btn"> ЕГЭ </router-link>
+                <router-link :to = "{ name: 'exam', params: { exam: 'vpr' } }" exact class="btn format_btn"> Beginner </router-link>
+                <router-link :to = "{ name: 'exam', params: { exam: 'oge' } }" exact class="btn format_btn"> Intermediate </router-link>
+                <router-link :to = "{ name: 'exam', params: { exam: 'ege' } }" exact class="btn format_btn"> Advanced </router-link>
             </div>
         </div>
     </div>
@@ -36,7 +37,7 @@
         background-position: bottom;
     }
     .format_btn {
-        width: 100px;
+        width: 120px;
         background: #FFB904;
     }
     .format_btn:hover {

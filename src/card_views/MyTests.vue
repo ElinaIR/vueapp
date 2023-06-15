@@ -1,7 +1,7 @@
 <template>
     <Navbar></Navbar>
     <div class="container">
-        <h1 class="my-3"> Мои тесты </h1>
+        <h1 class="my-3"> Результаты тестов </h1>
         <div class="d-flex flex-wrap mt-2" v-if="loaded">
             <div class="card m-2 col-5" v-for="deck in decks" :key="deck.id">
                 <div class="card-body">

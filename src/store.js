@@ -1,5 +1,4 @@
-// import Vue from 'vue'
-import { createStore} from 'vuex'
+import { createStore } from 'vuex'
 import { API } from './axios-api'
 
 const store = createStore({
